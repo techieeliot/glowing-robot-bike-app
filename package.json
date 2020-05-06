@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/techieeliot/glowing-robot-bike-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
