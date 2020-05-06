@@ -1,0 +1,28 @@
+{
+  "name": "biker-app",
+  "version": "1.0.0",
+  "description": "Coding interview exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techieeliot/glowing-robot-bike-app.git"
+  },
+  "author": "Eliot Sanford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techieeliot/glowing-robot-bike-app/issues"
+  },
+  "homepage": "https://github.com/techieeliot/glowing-robot-bike-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
