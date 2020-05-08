@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express();
-const PORT = PORT.process.env || 8888;
+const PORT = process.env.PORT || 8888;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-});
+const { createUser } = require('./api/signup')
 
-app.listen(888, () => {
+//Sign up
+app.post('/signup', createUser)
+
+app.listen(8888, () => {
   console.log(`Example app listening on port ${PORT}!`)
 });
