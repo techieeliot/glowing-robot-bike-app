@@ -1,5 +1,5 @@
 {
-  "name": "biker-app",
+  "name": "biker-app-backend",
   "version": "1.0.0",
   "description": "Coding interview exercise",
   "main": "index.js",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/techieeliot/glowing-robot-bike-app#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "mysql": "^2.18.1"
   },

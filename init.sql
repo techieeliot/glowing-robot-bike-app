@@ -1,10 +1,10 @@
-drop database fictional_lamp;
-create database fictional_lamp;
+drop database glowing_robot_bike_app;
+create database glowing_robot_bike_app;
 
-create USER 'biker-app-admin'@'localhost' IDENTIFIED BY 'c9c6a1cb7041dd2dff94812f510d6149';
+create USER 'glowing-robot-bike-app-admin'@'localhost' IDENTIFIED BY 'c9c6a1cb7041dd2dff94812f510d6149';
 grant all PRIVILEGES on *.* to 'admin'@'localhost';
 
-use fictional_lamp;
+use glowing_robot_bike_app;
 
 create table users (
     id int auto_increment,
