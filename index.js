@@ -7,6 +7,7 @@ const { loginUser } = require('./api/login')
 app.use(express.static('public'));
 app.use(express.json({ limit: '1mb' }));
 const PORT = process.env.PORT || 8888;
+const cors = require('cors');
 
 const axios = require('axios');
 const config = { headers: { 'Content-Type': 'multipart/form-data' } };
